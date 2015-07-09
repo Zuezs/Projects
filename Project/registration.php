@@ -70,7 +70,7 @@
                 die ("Passwords are not the same!");
 				
             }
-	$conn = pg_connect("host=dbhost-pgsql.cs.missouri.edu user=tda3b4 password=hDE19Evb dbname=tda3b4");
+	$conn = pg_connect("host=dbhost-pgsql.cs.missouri.edu user=tda3b4 password= dbname=");
 	if(!conn)
 	{
 		die ("Connection cannot be made!");
