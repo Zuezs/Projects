@@ -34,7 +34,7 @@
 		$password = empty($_POST['password']) ? '' : $_POST['password'];
 		
 		//Query Stuff
-		$conn = pg_connect("host=dbhost-pgsql.cs.missouri.edu user=tda3b4 password=hDE19Evb dbname=tda3b4");
+		$conn = pg_connect(" user= password= dbname=");
 		pg_query("SET search_path=lab8;");
 	
 		if( !conn)
